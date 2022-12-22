@@ -1,0 +1,146 @@
+/* common style
+*/
+
+body{ background: #010f1c url("images/top_img.png") center top no-repeat;}
+
+.main{
+	width: 1120px;
+	margin: 0 auto 30px auto;
+	padding-top: 530px;
+}
+
+.clearfix:after {
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+.round1{
+	width: 234px;
+	float: left;
+}
+
+.round2{
+	width: 234px;
+	float: left;
+	margin-top: 25px;
+}
+
+.round3{
+	width: 234px;
+	float: left;
+	margin-top: 66px;
+}
+
+.round4{
+	width: 234px;
+	float: left;
+	margin-top: 100px;
+}
+
+.final{
+	width: 232px;
+	float: left;
+	margin-top: 161px;
+}
+
+.champion{
+	float: left;
+	margin-top: 320px;
+}
+
+.champion img{
+	margin-left: 76px;
+}
+
+.flame_name_set{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.flame_name{ 
+	border: solid 1px #fff;
+	width: 160px;
+	height: 24px;
+	background-color: #010f1c;
+	color: #fff;
+	padding: 10px 8px 1px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-bottom: 3px;
+}
+
+.flame_name.win{
+	border-color: #ffd800;
+	color: #ffd800;
+}
+
+.flame_name.lose{
+	border-color: #333;
+	color: #666;
+}
+
+.flame_name.win_champion{
+	border-width: 2px;
+}
+
+.round2 .flame_name{
+	margin-bottom: 50px;
+}
+
+.round3 .flame_name{
+	margin-bottom: 138px;
+}
+
+.round4 .flame_name{
+	margin-bottom: 200px;
+}
+
+.final .flame_name{
+	margin-bottom: 313px;
+}
+
+.flame_name.last{
+	margin-bottom: 0;
+}
+
+.line1{ 
+	background: url("images/line1.png") no-repeat;
+	width: 56px;
+	height: 52px;
+	margin-top: 17px;
+	position: absolute;
+	top: 0;
+	left: 178px;
+}
+
+.line2{ 
+	background: url("images/line2.png") no-repeat;
+	width: 56px;
+	height: 200px;
+	margin-top: 17px;
+	position: absolute;
+	top: 0;
+	left: 178px;
+}
+
+.line3{ 
+	background: url("images/line3.png") no-repeat;
+	width: 56px;
+	height: 250px;
+	margin-top: 17px;
+	position: absolute;
+	top: 0;
+	left: 178px;
+}
+
+.line4{ 
+	background: url("images/line4.png") no-repeat;
+	width: 56px;
+	height: 400px;
+	margin-top: 17px;
+	position: absolute;
+	top: 0;
+	left: 178px;
+}
